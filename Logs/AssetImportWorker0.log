@@ -1,0 +1,1669 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Enterprise' Language: 'en' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lcv1930014/Downloads/GunSkin_Database
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53741
+Successfully changed project path to: C:/Users/lcv1930014/Downloads/GunSkin_Database
+C:/Users/lcv1930014/Downloads/GunSkin_Database
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19708] Host "[IP] 10.197.221.207 [Port] 0 [Flags] 2 [Guid] 3270152678 [EditorId] 3270152678 [Version] 1048832 [Id] WindowsEditor(7,LCV227-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19708] Host "[IP] 10.197.221.207 [Port] 0 [Flags] 2 [Guid] 3270152678 [EditorId] 3270152678 [Version] 1048832 [Id] WindowsEditor(7,LCV227-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 103.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lcv1930014/Downloads/GunSkin_Database/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007162 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (166ms)
+		EndReloadAssembly (1000ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4353 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.3 MB). Loaded Objects now: 4803.
+Memory consumption went from 244.3 MB to 243.0 MB.
+Total: 3.666300 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.226400 ms MarkObjects: 2.866600 ms  DeleteObjects: 0.266700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32374.039242 seconds.
+  path: Assets/Plugin/Scenes
+  artifactKey: Guid(8a9fd03b388507445ae5c3693dfe62f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Scenes using Guid(8a9fd03b388507445ae5c3693dfe62f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a9e37c33b53a82940ff1c5d152198d') in 0.010756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes
+  artifactKey: Guid(4343c8879dda8974088c6da21527caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes using Guid(4343c8879dda8974088c6da21527caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a76145cbe7a8e9d1bad7dd713951b7a') in 0.002021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351640 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview
+  artifactKey: Guid(8a6b2cc754b15224abcd06e5bdcab0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview using Guid(8a6b2cc754b15224abcd06e5bdcab0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a91395d8193a37d89c8216caa44dd1') in 0.005632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067747 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/LightingData.asset
+  artifactKey: Guid(adc01f9271dfe054fb75aeaa6e7a374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/LightingData.asset using Guid(adc01f9271dfe054fb75aeaa6e7a374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b657d44e444586f272609a501ede746') in 0.028917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-73_comp_light.exr
+  artifactKey: Guid(ba2010bd68632174fa60a613c8ad3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-73_comp_light.exr using Guid(ba2010bd68632174fa60a613c8ad3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78af30fd856c2bddec3e206972fbafc1') in 0.095348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-43_comp_light.exr
+  artifactKey: Guid(2f06ae7ba6953f9478cec6d66b6932f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-43_comp_light.exr using Guid(2f06ae7ba6953f9478cec6d66b6932f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0988fda21b168a98f3315c50d883d7ca') in 0.008949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-53_comp_light.exr
+  artifactKey: Guid(bcbc4c925226c7b449792e37f7c92c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-53_comp_light.exr using Guid(bcbc4c925226c7b449792e37f7c92c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bfb6cf17b334c2558183264d99e8f0') in 0.011174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-12_comp_light.exr
+  artifactKey: Guid(348addcaf29f0bb4386718bca8d48f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-12_comp_light.exr using Guid(348addcaf29f0bb4386718bca8d48f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af75e6df28c1b04b22ee65fd63a574ef') in 0.010166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-39_comp_light.exr
+  artifactKey: Guid(04c8791517ca9ee429d56c8f9b093e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-39_comp_light.exr using Guid(04c8791517ca9ee429d56c8f9b093e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2af3c0cc82cb77fdd4b0bd1a615a27') in 0.009527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-31_comp_light.exr
+  artifactKey: Guid(16494cb2d36c89c4499113f50fbd7950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-31_comp_light.exr using Guid(16494cb2d36c89c4499113f50fbd7950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c29dfe8b8976c5b1d92a459f28edb1') in 0.009064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-63_comp_light.exr
+  artifactKey: Guid(7168de4c64fb7b94e91587238cb6d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-63_comp_light.exr using Guid(7168de4c64fb7b94e91587238cb6d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee4cc048da7cf88a42f0a13763cf805') in 0.009813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-3_comp_light.exr
+  artifactKey: Guid(4dd032ebc52e0dd4082487c86f5d4696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-3_comp_light.exr using Guid(4dd032ebc52e0dd4082487c86f5d4696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286b3ffbf6e5e418e9d137f933a31ec0') in 0.010517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-46_comp_light.exr
+  artifactKey: Guid(697f4f96fc124834bb3990c591b894ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-46_comp_light.exr using Guid(697f4f96fc124834bb3990c591b894ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf873358cd8e17730784f05d44877dd6') in 0.012358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-78_comp_light.exr
+  artifactKey: Guid(0280c31c6ae462345bbd02f737aa5c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-78_comp_light.exr using Guid(0280c31c6ae462345bbd02f737aa5c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a30ec9e8364f5bef1f666c7bca6c997') in 0.009750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-84_comp_light.exr
+  artifactKey: Guid(c2a8cc9cfd02e764196fbc17ed5b0382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-84_comp_light.exr using Guid(c2a8cc9cfd02e764196fbc17ed5b0382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6ae4073c98a3a197aff56c8596c8f6') in 0.009898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-66_comp_light.exr
+  artifactKey: Guid(d2f14e919d71cbc4eba440f71742232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-66_comp_light.exr using Guid(d2f14e919d71cbc4eba440f71742232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7562a446a454776b60c8a2fb0f70d0df') in 0.008647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-75_comp_light.exr
+  artifactKey: Guid(90d6e1b74e5cd8e499614bafa04d1d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-75_comp_light.exr using Guid(90d6e1b74e5cd8e499614bafa04d1d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eeb35973ef57971e0ac462dc0a8b778') in 0.008679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-34_comp_light.exr
+  artifactKey: Guid(a3a65761daa5d6b4e99c4863fb3bbec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-34_comp_light.exr using Guid(a3a65761daa5d6b4e99c4863fb3bbec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74345f9163bc5b0da00ec71fee107fb2') in 0.011002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-26_comp_light.exr
+  artifactKey: Guid(f4070e43c65b75a43a938ca7a27e64ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-26_comp_light.exr using Guid(f4070e43c65b75a43a938ca7a27e64ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8c6cee78c6ec35c0338274a50bd781') in 0.009358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-2_comp_light.exr
+  artifactKey: Guid(03b8468a4d409a34bb3f4ce7ccc160de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-2_comp_light.exr using Guid(03b8468a4d409a34bb3f4ce7ccc160de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247da6f8e7176933ee9de4fabf481210') in 0.010437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-83_comp_light.exr
+  artifactKey: Guid(35b1341b19f35cb458321001b8290b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-83_comp_light.exr using Guid(35b1341b19f35cb458321001b8290b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a38416e4e1d472c7323a2ca0753ce17') in 0.013057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-47_comp_light.exr
+  artifactKey: Guid(58f8fe43436b87c46a3c0e05879c4f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-47_comp_light.exr using Guid(58f8fe43436b87c46a3c0e05879c4f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f39dbe45dacb8f04c9369252c37920') in 0.012981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-56_comp_light.exr
+  artifactKey: Guid(0e9f419728850cc45a9124b0b3932bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-56_comp_light.exr using Guid(0e9f419728850cc45a9124b0b3932bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9f40998c1429aa5153908b0118efee') in 0.014657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-10_comp_light.exr
+  artifactKey: Guid(3bce3359f9d97f443be31f77eb3a4c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-10_comp_light.exr using Guid(3bce3359f9d97f443be31f77eb3a4c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fdf895bed81f3a5a9ebf17bcfcfe33') in 0.009652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-5_comp_light.exr
+  artifactKey: Guid(4ba907f7bac97e247bd6b143792deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-5_comp_light.exr using Guid(4ba907f7bac97e247bd6b143792deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb9e4376b7cf5c26397e95d974c5e61') in 0.012558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-52_comp_light.exr
+  artifactKey: Guid(2621f3849a839624da5f403b94ae16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-52_comp_light.exr using Guid(2621f3849a839624da5f403b94ae16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2edb3f1a23ea1e2e5a0ca99abe85f9') in 0.011683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-51_comp_light.exr
+  artifactKey: Guid(14d6bd6607215bb489b92812c488d125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-51_comp_light.exr using Guid(14d6bd6607215bb489b92812c488d125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3800851d10513335e7557e7c67c25d9') in 0.010781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-0_comp_light.exr
+  artifactKey: Guid(99fec1ef4eea209489cf2f413d836f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-0_comp_light.exr using Guid(99fec1ef4eea209489cf2f413d836f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c4864161f8ecae601d8372aabae1e6') in 0.011341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-23_comp_light.exr
+  artifactKey: Guid(c1a96c5bbf96d9740b06fa4e0ba92853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-23_comp_light.exr using Guid(c1a96c5bbf96d9740b06fa4e0ba92853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47bec5b30729e04c70636d273c0274a') in 0.010417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-27_comp_light.exr
+  artifactKey: Guid(dfbb36674be8a4741b4948becc3a519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-27_comp_light.exr using Guid(dfbb36674be8a4741b4948becc3a519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e733730e7c980988cb2611b84e1b66') in 0.010158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-69_comp_light.exr
+  artifactKey: Guid(58da10b1f89f55f4d8514bfeb7604e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-69_comp_light.exr using Guid(58da10b1f89f55f4d8514bfeb7604e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1a4701678aae3799f4b9af74213791') in 0.010495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-41_comp_light.exr
+  artifactKey: Guid(081eca23c57c092499a36f651eb0135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-41_comp_light.exr using Guid(081eca23c57c092499a36f651eb0135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26b5ba4ff1453aa6e571a918e71157a') in 0.010798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-37_comp_light.exr
+  artifactKey: Guid(0a3fba431d7c79f488873e426958cfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-37_comp_light.exr using Guid(0a3fba431d7c79f488873e426958cfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478379ae114878604f4d80f5ae5371b2') in 0.009196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-50_comp_light.exr
+  artifactKey: Guid(ece1ff319b9cd12409838479a8b4a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-50_comp_light.exr using Guid(ece1ff319b9cd12409838479a8b4a27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f50592e0ad077830ff988f4a0c2b9e7') in 0.008556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-81_comp_light.exr
+  artifactKey: Guid(edcc9ee37f119a34c8d1abe1bff75186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-81_comp_light.exr using Guid(edcc9ee37f119a34c8d1abe1bff75186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07afdd89714e9dc2ae1fe3d8493c9aaa') in 0.009083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-14_comp_light.exr
+  artifactKey: Guid(e2f2b0a6c00adc1438a60d9598687806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-14_comp_light.exr using Guid(e2f2b0a6c00adc1438a60d9598687806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c602b90c87f4e4052209e2de44f23971') in 0.010942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-68_comp_light.exr
+  artifactKey: Guid(9f0fa70414b252b4c8bd41c03b1bea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-68_comp_light.exr using Guid(9f0fa70414b252b4c8bd41c03b1bea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31ee28712c2d43af0de35b65edfb56') in 0.009314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-4_comp_light.exr
+  artifactKey: Guid(08e02716acfe1e542a1b306a31ffd407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-4_comp_light.exr using Guid(08e02716acfe1e542a1b306a31ffd407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57469b9a9b2e02b60e277864f79e75e8') in 0.009582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-6_comp_light.exr
+  artifactKey: Guid(4f7c1f591909dec42b7c1c66de7953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-6_comp_light.exr using Guid(4f7c1f591909dec42b7c1c66de7953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a4f30260eab48b1b210a6a5c111b96') in 0.009113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-18_comp_light.exr
+  artifactKey: Guid(c7427390ead68e74d8c6a9c560ab36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-18_comp_light.exr using Guid(c7427390ead68e74d8c6a9c560ab36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b844dc8f17b61c49233df8c4cb950ca4') in 0.009391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-33_comp_light.exr
+  artifactKey: Guid(109904c621f1663439487797953b0460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-33_comp_light.exr using Guid(109904c621f1663439487797953b0460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2539af6b918dc68ffcff2c286266853') in 0.010166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-36_comp_light.exr
+  artifactKey: Guid(234a175db50a7b842a8783ca9436f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-36_comp_light.exr using Guid(234a175db50a7b842a8783ca9436f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37519af4afd0e515a0527db0645432c') in 0.009832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-42_comp_light.exr
+  artifactKey: Guid(94801f8fbf5cc7d4695b46632e01f70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-42_comp_light.exr using Guid(94801f8fbf5cc7d4695b46632e01f70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2260bb612fb120e62faca5dcb9b23fc6') in 0.009882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-13_comp_light.exr
+  artifactKey: Guid(422d4825ef0acd44c9794cec5c2c7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-13_comp_light.exr using Guid(422d4825ef0acd44c9794cec5c2c7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a1f456d266bb176c2c49cc7ebef8c5') in 0.009893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-30_comp_light.exr
+  artifactKey: Guid(0f004ce5f8fb8f342967a6cef0b1b937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-30_comp_light.exr using Guid(0f004ce5f8fb8f342967a6cef0b1b937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d61e6966e96f1727039a6f7464b0875') in 0.010087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-11_comp_light.exr
+  artifactKey: Guid(0604e6ae473437f47be866b835e7e544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-11_comp_light.exr using Guid(0604e6ae473437f47be866b835e7e544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ebb77d74aa07b630540519cf3499c1') in 0.009942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-71_comp_light.exr
+  artifactKey: Guid(e1592a2097ec1fc4988e77277c9cff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-71_comp_light.exr using Guid(e1592a2097ec1fc4988e77277c9cff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da27fb44e651702bfe7e0dac767462e0') in 0.010562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-29_comp_light.exr
+  artifactKey: Guid(140ccbc33551fec4ca4f7be85ac6d637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-29_comp_light.exr using Guid(140ccbc33551fec4ca4f7be85ac6d637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02566ca4c0d5fe386b9e2a659cea09bb') in 0.012920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-70_comp_light.exr
+  artifactKey: Guid(9fab5bfa17bf994448e49c1e46c6178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-70_comp_light.exr using Guid(9fab5bfa17bf994448e49c1e46c6178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8722f33d5c1bc5f152b3173fd7c51f3') in 0.009715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-61_comp_light.exr
+  artifactKey: Guid(abb663e8af0bac04581e2f68b03210db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-61_comp_light.exr using Guid(abb663e8af0bac04581e2f68b03210db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933a30ba7dfa7cd2866b3434ab30ff6a') in 0.009853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-60_comp_light.exr
+  artifactKey: Guid(9d0d66215f6787e428c2a6c4a40af835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-60_comp_light.exr using Guid(9d0d66215f6787e428c2a6c4a40af835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f596ce24be5b6686f0d4cfe7af53ba6') in 0.009805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-21_comp_light.exr
+  artifactKey: Guid(fa80acfa37e688f4a8b1de38df926e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-21_comp_light.exr using Guid(fa80acfa37e688f4a8b1de38df926e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be00d112e2c225885ab17c94d989e3cd') in 0.011751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-67_comp_light.exr
+  artifactKey: Guid(347b327fb45a29345be0addcd7c4a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-67_comp_light.exr using Guid(347b327fb45a29345be0addcd7c4a97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e185cf2921b6c50819a20abd78a378b') in 0.009541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a0731f01d23c7364f8b230997d09ea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-8_comp_light.exr using Guid(a0731f01d23c7364f8b230997d09ea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82a4c8235bf0d5a3d2de098604dacd5') in 0.009224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-72_comp_light.exr
+  artifactKey: Guid(03fedcd716bc1144da665363be41809b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-72_comp_light.exr using Guid(03fedcd716bc1144da665363be41809b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56046336dba1a072bf510078bf20dfb') in 0.009279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-40_comp_light.exr
+  artifactKey: Guid(6fe5e90b7ecf0c94d80723c31231591c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-40_comp_light.exr using Guid(6fe5e90b7ecf0c94d80723c31231591c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf93d2f3e8a4eb69c93e7eb16f5068eb') in 0.008922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-59_comp_light.exr
+  artifactKey: Guid(c71ec1bae58c35646b3585d99bc2efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-59_comp_light.exr using Guid(c71ec1bae58c35646b3585d99bc2efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd347205cb462ba52c8668465fc1e522') in 0.009326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-62_comp_light.exr
+  artifactKey: Guid(015821cb2cea8ea449942922d14abea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-62_comp_light.exr using Guid(015821cb2cea8ea449942922d14abea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b889e83209c56089824fcc2a9ca63a') in 0.008842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-24_comp_light.exr
+  artifactKey: Guid(6c2e2e0c16ffd264f8eebd9cac4f2265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-24_comp_light.exr using Guid(6c2e2e0c16ffd264f8eebd9cac4f2265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef535fea4f24618606b815723e2b1c2c') in 0.008957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-77_comp_light.exr
+  artifactKey: Guid(2e2e5a9a5cd8aad4e9203693ef891299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-77_comp_light.exr using Guid(2e2e5a9a5cd8aad4e9203693ef891299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dda00e0f6657ca8f1b91f07f562e0a8') in 0.009382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-45_comp_light.exr
+  artifactKey: Guid(d2b5d56ae1a1fa0439a57a9900423cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-45_comp_light.exr using Guid(d2b5d56ae1a1fa0439a57a9900423cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cba78be6f78e3b9853c266c3a77072d') in 0.009181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-54_comp_light.exr
+  artifactKey: Guid(a0205239314503347b28e9b7cbe4a439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-54_comp_light.exr using Guid(a0205239314503347b28e9b7cbe4a439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90bc44594e93249faa3993c7f6370ce') in 0.010040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-17_comp_light.exr
+  artifactKey: Guid(53f389449490afa4fb69f08b9395ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-17_comp_light.exr using Guid(53f389449490afa4fb69f08b9395ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1d83d390393f1230188d0d1c1ea010') in 0.009630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-44_comp_light.exr
+  artifactKey: Guid(c23929d1a1fda0c4c9fd5d60834bbc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-44_comp_light.exr using Guid(c23929d1a1fda0c4c9fd5d60834bbc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc544444e46867b8d99208c89dfe767b') in 0.009485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-76_comp_light.exr
+  artifactKey: Guid(8897a7ffb53ecf34a9cf4ea8e3985176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-76_comp_light.exr using Guid(8897a7ffb53ecf34a9cf4ea8e3985176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa2fe076198c042efda2c60e3986b82') in 0.009799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-48_comp_light.exr
+  artifactKey: Guid(9cd36bb8a821bc8439576b021fabdd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-48_comp_light.exr using Guid(9cd36bb8a821bc8439576b021fabdd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770239bf05f516950fca59f881909b03') in 0.009995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-82_comp_light.exr
+  artifactKey: Guid(d35ab03d4c41ea548bef4ab348d06c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-82_comp_light.exr using Guid(d35ab03d4c41ea548bef4ab348d06c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae81ad45df86a0b2b47a1348fb6fadf') in 0.010077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-64_comp_light.exr
+  artifactKey: Guid(8c9012efc829feb48b4d9b833b97bd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-64_comp_light.exr using Guid(8c9012efc829feb48b4d9b833b97bd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0ff6e7cf395b4f2fdf8e2dd40815a2') in 0.011518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-74_comp_light.exr
+  artifactKey: Guid(f7d9e8d09714e314bac1b302725684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-74_comp_light.exr using Guid(f7d9e8d09714e314bac1b302725684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ac8c50a69f9616abd87e757d7256f8') in 0.010430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-38_comp_light.exr
+  artifactKey: Guid(0c52cd6082b56894dafd1878ef170c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-38_comp_light.exr using Guid(0c52cd6082b56894dafd1878ef170c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abc11ea3d49fbb22c717c46c4d91ea7') in 0.009633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-15_comp_light.exr
+  artifactKey: Guid(cf50bc31ce09f19498791ecd17532cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-15_comp_light.exr using Guid(cf50bc31ce09f19498791ecd17532cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c497cd4b6aef41c6bdf360684ab24b1d') in 0.009833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-32_comp_light.exr
+  artifactKey: Guid(ecf7f2a8500867e4489171b05119a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-32_comp_light.exr using Guid(ecf7f2a8500867e4489171b05119a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453567e0eb5f24d628a590ef92ffb16d') in 0.011185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-55_comp_light.exr
+  artifactKey: Guid(ec8e4c165681d2046b4a3a2748ca2c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-55_comp_light.exr using Guid(ec8e4c165681d2046b4a3a2748ca2c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec127b802a1a782e650612511d089608') in 0.010142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-9_comp_light.exr
+  artifactKey: Guid(c066a9a709c017145a056fb0508a468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-9_comp_light.exr using Guid(c066a9a709c017145a056fb0508a468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71792c4a69d8ba3e43878f76e4bd4750') in 0.008699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-22_comp_light.exr
+  artifactKey: Guid(16a7278a31d256a4a81f9a8871b8f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-22_comp_light.exr using Guid(16a7278a31d256a4a81f9a8871b8f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab21c4101bb4db0c2bccb8589a2f7a05') in 0.009132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-35_comp_light.exr
+  artifactKey: Guid(ea5dd1a53b21fe9459218b606501b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-35_comp_light.exr using Guid(ea5dd1a53b21fe9459218b606501b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96b61bd35a9983c2980bdab4567cfbb') in 0.009322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-65_comp_light.exr
+  artifactKey: Guid(d95eb9683a01d1d4ebd3a7e49eef1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-65_comp_light.exr using Guid(d95eb9683a01d1d4ebd3a7e49eef1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca647d66d69bfd7a4eff3231683cd804') in 0.010757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-79_comp_light.exr
+  artifactKey: Guid(8ddb24021e2502c49a026f22caa245fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-79_comp_light.exr using Guid(8ddb24021e2502c49a026f22caa245fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d54cb06d384c9311f023632607f71ce') in 0.009765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-20_comp_light.exr
+  artifactKey: Guid(dbdc781edbab47844aca292e7dd3e5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-20_comp_light.exr using Guid(dbdc781edbab47844aca292e7dd3e5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01baa41f072e7f24ac1957182322853') in 0.009207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-80_comp_light.exr
+  artifactKey: Guid(9d5a98cf48ea1e34ea895f782619436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-80_comp_light.exr using Guid(9d5a98cf48ea1e34ea895f782619436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5107378d5d038f9e0805370693fd6c24') in 0.009805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-25_comp_light.exr
+  artifactKey: Guid(575b0687fcce4c84db3c4639bc759701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-25_comp_light.exr using Guid(575b0687fcce4c84db3c4639bc759701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d5ab809da10ad9e4045b3ed95db1a4') in 0.010168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-58_comp_light.exr
+  artifactKey: Guid(b59c4ac931779f9488dc43dc792d89bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-58_comp_light.exr using Guid(b59c4ac931779f9488dc43dc792d89bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce658a5fb6a6726f25d1cd4433245d4') in 0.009871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-28_comp_light.exr
+  artifactKey: Guid(9c51dd12368e2584c9caa3fa0497ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-28_comp_light.exr using Guid(9c51dd12368e2584c9caa3fa0497ff4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d043363e407d00f94618d9768d18e3') in 0.009441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-1_comp_light.exr
+  artifactKey: Guid(8533f83c655dedd42986eecc364f9f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-1_comp_light.exr using Guid(8533f83c655dedd42986eecc364f9f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c843d09adbb948e9bc3137ec6533d18d') in 0.010498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-7_comp_light.exr
+  artifactKey: Guid(ab4123d88e0864d42a409d5fc32b9a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-7_comp_light.exr using Guid(ab4123d88e0864d42a409d5fc32b9a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2dc8689d0a42e0b210126781c1b513') in 0.010178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-16_comp_light.exr
+  artifactKey: Guid(f4933a3f5a4498440a5165f9b84683ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-16_comp_light.exr using Guid(f4933a3f5a4498440a5165f9b84683ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f94edb44abc5588959da891b62e54') in 0.011326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-57_comp_light.exr
+  artifactKey: Guid(d6cf895a524f5e344a0d9f1664e78835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-57_comp_light.exr using Guid(d6cf895a524f5e344a0d9f1664e78835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dbcf4f1d5f0438c937fceaaf25f21f') in 0.010150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-19_comp_light.exr
+  artifactKey: Guid(cf00cffaa0d8145438dca5042d29d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-19_comp_light.exr using Guid(cf00cffaa0d8145438dca5042d29d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfb898524826fd891ed67aae61906d4') in 0.009995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-49_comp_light.exr
+  artifactKey: Guid(135dcdcf7b068e041a0a2b1a97cc5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview/Lightmap-49_comp_light.exr using Guid(135dcdcf7b068e041a0a2b1a97cc5a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57d2cd424af5e5d7414057720cf2bea') in 0.009958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.944792 seconds.
+  path: Assets/Plugin/Scenes/ChangeScene.cs
+  artifactKey: Guid(c7f615ce0c36ef24bb4026b00ca92a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Scenes/ChangeScene.cs using Guid(c7f615ce0c36ef24bb4026b00ca92a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b812f95d95e30a70139e5f1699ab6c') in 0.014821 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1113ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4812.
+Memory consumption went from 244.7 MB to 243.4 MB.
+Total: 3.545100 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.177000 ms MarkObjects: 2.866600 ms  DeleteObjects: 0.226400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.332566 seconds.
+  path: Assets/Plugin/Scenes/MenuScene.unity
+  artifactKey: Guid(8283054fc56018641a1b83a9e0c11360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Scenes/MenuScene.unity using Guid(8283054fc56018641a1b83a9e0c11360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735274ac1a921b317269745e333a778d') in 0.010080 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1852ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1582ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4815.
+Memory consumption went from 244.8 MB to 243.5 MB.
+Total: 4.117100 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.298100 ms MarkObjects: 3.095500 ms  DeleteObjects: 0.351900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.542018 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Input/IA_Player.inputactions
+  artifactKey: Guid(d4580ddb403296c4e8150653f661069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Input/IA_Player.inputactions using Guid(d4580ddb403296c4e8150653f661069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff3b7fb1b20229b5539b8677d5090ff') in 0.027968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.254101 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons
+  artifactKey: Guid(0c700eeb8749c2443b49283ac607f6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons using Guid(0c700eeb8749c2443b49283ac607f6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef982133ae1f7c39b7aacc088e14f9f8') in 0.006859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.030499 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs
+  artifactKey: Guid(07fbe0bea73183c4bac8b7f41b6f6c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs using Guid(07fbe0bea73183c4bac8b7f41b6f6c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897c1bd7353dca3fad03186b51585b95') in 0.006694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053030 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SK_AR_01.fbx
+  artifactKey: Guid(bfda376b0f658a748870ea8f7c2c7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SK_AR_01.fbx using Guid(bfda376b0f658a748870ea8f7c2c7c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca4095c65f75ad47f5152e956cd5d3d') in 0.617578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SM_AR_01_Scope_Default.fbx
+  artifactKey: Guid(9f4d52975d229e74fa27561b00052caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SM_AR_01_Scope_Default.fbx using Guid(9f4d52975d229e74fa27561b00052caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeec7f2cc1016a93f8f7187fb5c07b4') in 0.017598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SM_AR_01_Magazine_Default.fbx
+  artifactKey: Guid(894eecaba4473bc41a05f263041a2272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/ARs/SM_AR_01_Magazine_Default.fbx using Guid(894eecaba4473bc41a05f263041a2272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72cb0c9f48e57269ee4eb0f7137e763') in 0.021190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.025870 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SK_Handgun_03.fbx
+  artifactKey: Guid(40cb849895dd45645ac3fadcc88190af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SK_Handgun_03.fbx using Guid(40cb849895dd45645ac3fadcc88190af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380e442d57d83b71c56c6f02a6728e4a') in 0.209288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Magazine_Default.fbx
+  artifactKey: Guid(8931d8712849cae45b5d761cd9ec7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Magazine_Default.fbx using Guid(8931d8712849cae45b5d761cd9ec7838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68935cc1861a27a444743460158f67f') in 0.037601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Scope_Default.fbx
+  artifactKey: Guid(446803998811ff04ea871c8f2a4be03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Art/Meshes/Weapons/Handguns/SM_Handgun_03_Scope_Default.fbx using Guid(446803998811ff04ea871c8f2a4be03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ae371305ba11193e3c033087dd3456') in 0.016102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1365.157153 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures
+  artifactKey: Guid(07a6929d3e5614146a7abb90c8f103f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures using Guid(07a6929d3e5614146a7abb90c8f103f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b1895c18ff78023970cd9ce9a1a041') in 0.006328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.544388 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials
+  artifactKey: Guid(be4a79b8d4889a84ba17d42e930993c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials using Guid(be4a79b8d4889a84ba17d42e930993c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d4dfbab0fe6d1c82e71973fe2f8a4c') in 0.006877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097482 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat
+  artifactKey: Guid(e2782bd09fb749e4f8c457cb9c8cc6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat using Guid(e2782bd09fb749e4f8c457cb9c8cc6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdabf795485b2c8296536a50221a081') in 0.255252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat
+  artifactKey: Guid(7ea77b3e49c1d61409582be7e98d0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat using Guid(7ea77b3e49c1d61409582be7e98d0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45520ac71a3d0723fa22629149b40fd3') in 0.026447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_19_4_Dirt.mat
+  artifactKey: Guid(d24bde530a6cd174cb70a68743168031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_19_4_Dirt.mat using Guid(d24bde530a6cd174cb70a68743168031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b4a9a284614ba2316e764c219b63b') in 0.021391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat
+  artifactKey: Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat using Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e269b8d2a955837b9f1e9f3a7b7ac93') in 0.163662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_30_3_Roofs.mat
+  artifactKey: Guid(78f6c3f1d47eef84f9ee5e607fad4c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_30_3_Roofs.mat using Guid(78f6c3f1d47eef84f9ee5e607fad4c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c272b80f6b9d3a1156585b190da73c0') in 0.103199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat
+  artifactKey: Guid(118675f9ee3b22c43a2f8841d6206b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat using Guid(118675f9ee3b22c43a2f8841d6206b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c83c08a045b2513038e4968efac229') in 0.017492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_16_2_Sand.mat
+  artifactKey: Guid(49f3385eb1c319941be8623439f1eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_16_2_Sand.mat using Guid(49f3385eb1c319941be8623439f1eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49539ace260ddd7da23e193317a951f') in 0.019341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat
+  artifactKey: Guid(ebabfdf81fc72414f9921cfe2ed4b652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat using Guid(ebabfdf81fc72414f9921cfe2ed4b652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9152b87baa3f4737eb2cdebd5b3fb374') in 0.020709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat
+  artifactKey: Guid(e94c7625cd2e80d4e8fd19b24fc89d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat using Guid(e94c7625cd2e80d4e8fd19b24fc89d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093d94ea02e6aba90a1a3f78da270d15') in 0.246602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_23_1_Rocks.mat
+  artifactKey: Guid(43ca10b6d3421d546832de715a9d893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_23_1_Rocks.mat using Guid(43ca10b6d3421d546832de715a9d893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13c3c47cbe8c65f8d9f0097da5ee8e5') in 0.019595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_42_1_Vegetation.mat
+  artifactKey: Guid(9c3435b7cf3210044b3a24266d8aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_42_1_Vegetation.mat using Guid(9c3435b7cf3210044b3a24266d8aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c345e89f517b70923e488709212419') in 0.021327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat
+  artifactKey: Guid(67436367136736141b5c7e131555c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat using Guid(67436367136736141b5c7e131555c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7554c6a92dfd0d4d41b88ac590ccf75') in 0.022832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_67_3_Tile.mat
+  artifactKey: Guid(b45a15fff385e4a46ab2bf7a9b0214e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_67_3_Tile.mat using Guid(b45a15fff385e4a46ab2bf7a9b0214e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7ee1a25cda025d602e4fdd321ed405') in 0.020949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat
+  artifactKey: Guid(d12d326c7ff660a40aed23b21d98c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat using Guid(d12d326c7ff660a40aed23b21d98c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938086715c630f1020bccd51e6e1452b') in 0.023730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_7_1_Tiles.mat
+  artifactKey: Guid(d7345edb353d0794296950a9adb3ad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_7_1_Tiles.mat using Guid(d7345edb353d0794296950a9adb3ad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53d923b625aa7b203b3f2f835381563') in 0.020387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_100_1_Pixel.mat
+  artifactKey: Guid(b1a8a6908ca5ad247ad05e4d89150386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_100_1_Pixel.mat using Guid(b1a8a6908ca5ad247ad05e4d89150386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e27ba321f34c92e44603fd307eefd0') in 0.021066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat
+  artifactKey: Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat using Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5c0393578231e9cf160890abd38d09') in 0.020862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_79_5_Sci-fi.mat
+  artifactKey: Guid(378426c27b3a38f4f9e38126b22973fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_79_5_Sci-fi.mat using Guid(378426c27b3a38f4f9e38126b22973fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed0ead13fda11d759825e7c4b26edf') in 0.016973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles.mat
+  artifactKey: Guid(7f46efa3bb98bb44ea780a4a417b4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles.mat using Guid(7f46efa3bb98bb44ea780a4a417b4f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff88fab2ca53df31890eb47028f5ec1') in 0.017715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_36_5_Water.mat
+  artifactKey: Guid(490c25b2fda35fc4582a9582c4179ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Materials/Vol_36_5_Water.mat using Guid(490c25b2fda35fc4582a9582c4179ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a997a0d74f101fe1da16423c7f94dc') in 0.015818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.965911 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Ambient_Occlusion.png
+  artifactKey: Guid(b14c4799c9487dc42a880da5a7c5892a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Ambient_Occlusion.png using Guid(b14c4799c9487dc42a880da5a7c5892a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab1bbbd49ecd27517cb5b7e730f4bc0') in 0.080897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Normal.png
+  artifactKey: Guid(6ccdca07ad7366a4a82be4158f476e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Normal.png using Guid(6ccdca07ad7366a4a82be4158f476e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad0f107240e129ece5e5eaa2d8477ee') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Ambient_Occlusion.png
+  artifactKey: Guid(95abdcc1842ca7d4d8e8e009e0f4142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Ambient_Occlusion.png using Guid(95abdcc1842ca7d4d8e8e009e0f4142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770f61c39896bb55d419e9c88154f975') in 0.012569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Height.png
+  artifactKey: Guid(f48e6a248438ea34a95582e3bd1e4918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Height.png using Guid(f48e6a248438ea34a95582e3bd1e4918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09d19758470de51a5a93f8a7b8d0d90') in 0.017211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Height.png
+  artifactKey: Guid(2c395f3ea5a3b5e40bfe2b47798518cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Height.png using Guid(2c395f3ea5a3b5e40bfe2b47798518cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea02a2df386806ec4b2a80ddae45a3e') in 0.016920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Base_Color.png
+  artifactKey: Guid(7332c22810418e940a28b569ff493cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Base_Color.png using Guid(7332c22810418e940a28b569ff493cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679cd7db5f6b0bbf7120672dc025b487') in 0.015218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Base_Color.png
+  artifactKey: Guid(baf23df249cc3974fafd9a18167df712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Base_Color.png using Guid(baf23df249cc3974fafd9a18167df712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78d28a96e5d18313406ec8f523a267f') in 0.011488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Base_Color.png
+  artifactKey: Guid(f4a8ed9d61a4bd44f812866147d00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Base_Color.png using Guid(f4a8ed9d61a4bd44f812866147d00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4c2da6d9a4a36a51d471652663919a') in 0.012360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Ambient_Occlusion.png
+  artifactKey: Guid(26455e1254c4c44469ca0ac04c6b4533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Ambient_Occlusion.png using Guid(26455e1254c4c44469ca0ac04c6b4533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3994cf8551631903ec6b21342b3ae3a') in 0.010590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Height.png
+  artifactKey: Guid(218ed969607ac4644b0b1c66b7a81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Height.png using Guid(218ed969607ac4644b0b1c66b7a81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f95734966b387f0b1fe85e66b0338d') in 0.010699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Roughness.png
+  artifactKey: Guid(77f420355d0afa849827304d8e765818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Roughness.png using Guid(77f420355d0afa849827304d8e765818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfea7a4979f9743e6d49cbe3cedc23d8') in 0.012483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Roughness.png
+  artifactKey: Guid(981e4a46d1a5f8346af0b54595225f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Roughness.png using Guid(981e4a46d1a5f8346af0b54595225f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca518dfe903083cd5438aaa0b159c3b') in 0.012364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Normal.png
+  artifactKey: Guid(daa033572df9d20419e6c927ff2c2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Normal.png using Guid(daa033572df9d20419e6c927ff2c2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c230c19b9c9c9b5f3ee45892e76613b4') in 0.013804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Emissive.png
+  artifactKey: Guid(7d0bc04c5166d2f468e87d53b7daaa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Emissive.png using Guid(7d0bc04c5166d2f468e87d53b7daaa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7f5ab2c7cd3c69d4b846e1080c7bce') in 0.013891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Roughness.png
+  artifactKey: Guid(d141606ca3998914892249c806929dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Roughness.png using Guid(d141606ca3998914892249c806929dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113068d41a12c417a8876abcf4521f97') in 0.014359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Roughness.png
+  artifactKey: Guid(1288cf61212e10c4391b6a2f9a85739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Roughness.png using Guid(1288cf61212e10c4391b6a2f9a85739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715a873b36e90b6485677bd139395fa7') in 0.012484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Base_Color.png
+  artifactKey: Guid(403e336e5700c724790ded62c739d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Base_Color.png using Guid(403e336e5700c724790ded62c739d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaa3c9947b32fdc231631df0b858a53') in 0.014026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Roughness.png
+  artifactKey: Guid(02058dd182c528744986488fe9d35a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Roughness.png using Guid(02058dd182c528744986488fe9d35a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafd1d2eedf492d8500b8fb025f5d543') in 0.011884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Ambient_Occlusion.png
+  artifactKey: Guid(c4dbeaa72f7890047aa4a3104e154956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Ambient_Occlusion.png using Guid(c4dbeaa72f7890047aa4a3104e154956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5b25f374ae6c2cebfa4ff86c696cee') in 0.012368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Roughness.png
+  artifactKey: Guid(04c0fe5e0cf253a48a1fbf82b9666e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Roughness.png using Guid(04c0fe5e0cf253a48a1fbf82b9666e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb54164459f92bf1baf7215323d7638') in 0.014252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Base_Color.png
+  artifactKey: Guid(20e8f0574dfbc8f4e9ea37a90e90345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Base_Color.png using Guid(20e8f0574dfbc8f4e9ea37a90e90345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331a2f52a43149974c00c0cfccf3f0cf') in 0.012409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Base_Color.png
+  artifactKey: Guid(b9337c53c4df5b54f8823c08c0a45d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Base_Color.png using Guid(b9337c53c4df5b54f8823c08c0a45d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db073ca7371a7e49c01d8144156c439') in 0.013007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Ambient_Occlusion.png
+  artifactKey: Guid(ef520d91c394e83498031f05027a96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Ambient_Occlusion.png using Guid(ef520d91c394e83498031f05027a96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca96bec08a650268b59637497a8a6ab') in 0.013109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Ambient_Occlusion.png
+  artifactKey: Guid(4b2e503f9242bc24db88c9f688628edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Ambient_Occlusion.png using Guid(4b2e503f9242bc24db88c9f688628edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc41fada5de9b744e109576829c80b1e') in 0.011949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Height.png
+  artifactKey: Guid(e750983d767f3e546a43fc035a7d2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Height.png using Guid(e750983d767f3e546a43fc035a7d2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8f8f83862a7c5cbdb5725435a2b325') in 0.015143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Emissive.png
+  artifactKey: Guid(ebcf4dbb3b157704bbacf45bc956f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Emissive.png using Guid(ebcf4dbb3b157704bbacf45bc956f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43ade6cc59031b3ad410f62db322b52') in 0.014302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Base_Color.png
+  artifactKey: Guid(94ddededa5cbf2242b63ddd549cfba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Base_Color.png using Guid(94ddededa5cbf2242b63ddd549cfba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5ac3e4f82849f1f817d08e242623f2') in 0.012569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Height.png
+  artifactKey: Guid(8935825f0cada30479d8d7fdf4de5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Height.png using Guid(8935825f0cada30479d8d7fdf4de5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5236f003470defc64af5cac829a2089') in 0.012020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Normal.png
+  artifactKey: Guid(a464b9a07a241e942ab6ba947dc34463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Normal.png using Guid(a464b9a07a241e942ab6ba947dc34463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e723deb53d958958037b207d3de57da3') in 0.015777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Normal.png
+  artifactKey: Guid(8931af16587629c4187693a56cd9de54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Normal.png using Guid(8931af16587629c4187693a56cd9de54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0b364a34e89deb65d7c37fe4018682') in 0.013150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Ambient_Occlusion.png
+  artifactKey: Guid(8673ac5a196c5e7429bd829afd0092a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Ambient_Occlusion.png using Guid(8673ac5a196c5e7429bd829afd0092a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e049d5ccd4a0d90592f3b6b954b2fec') in 0.014201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Roughness.png
+  artifactKey: Guid(b83f09f3e1d5cd14fadd54b3226e6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Roughness.png using Guid(b83f09f3e1d5cd14fadd54b3226e6e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5a25671781fd1d52c25f0893181f19') in 0.012301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Normal.png
+  artifactKey: Guid(4afc1765a23e31b4d91c3c7223087506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Normal.png using Guid(4afc1765a23e31b4d91c3c7223087506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2a1fc4708f8b9c547fb494ffdc9edf') in 0.015539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Base_Color.png
+  artifactKey: Guid(36b88763521a03549b56d085b6f1e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Base_Color.png using Guid(36b88763521a03549b56d085b6f1e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90dfb74173c0f8af2f153c675d59bcf') in 0.014799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Normal.png
+  artifactKey: Guid(d5d87eab3d41c224c9524b61a2523085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Normal.png using Guid(d5d87eab3d41c224c9524b61a2523085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25c886988719c72f7c99cf5d11e6b5b') in 0.012842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Base_Color.png
+  artifactKey: Guid(a88ee9ed9af4fc946a99eb6839565475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Base_Color.png using Guid(a88ee9ed9af4fc946a99eb6839565475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b8a7ce0641311f7c2142d77f0f31f9') in 0.012780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Normal.png
+  artifactKey: Guid(40cfe12abc15c114c9e32d8c0d5670b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Normal.png using Guid(40cfe12abc15c114c9e32d8c0d5670b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988ee1abf4a6ac35bcfc146ea9c12c1d') in 0.015600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Base_Color.png
+  artifactKey: Guid(9c4040e552b4ecf4c80b8f1c96d2aca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Base_Color.png using Guid(9c4040e552b4ecf4c80b8f1c96d2aca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d3a582684841716b4195b4c05b05ef') in 0.013317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Ambient_Occlusion.png
+  artifactKey: Guid(87371d6475acff34aaf1fd4596845388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_16_2_Sand_Ambient_Occlusion.png using Guid(87371d6475acff34aaf1fd4596845388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1364378018a2630d241e4dd032ea98') in 0.014862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Ambient_Occlusion.png
+  artifactKey: Guid(387bfe5bdb8c63d48aec5f5058d42fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Ambient_Occlusion.png using Guid(387bfe5bdb8c63d48aec5f5058d42fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bc15b434dd71d4e22e373be44a348b') in 0.015448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Ambient_Occlusion.png
+  artifactKey: Guid(50ddeaf8336ed2d49bb19d723717db8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Ambient_Occlusion.png using Guid(50ddeaf8336ed2d49bb19d723717db8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fb4bad15f8d5a43c14c179a4db5536') in 0.013829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Ambient_Occlusion.png
+  artifactKey: Guid(5fdfdb38e6aa18749b19bfe3a1c91a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Ambient_Occlusion.png using Guid(5fdfdb38e6aa18749b19bfe3a1c91a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5528f5eb058e2c64105d073b900386ab') in 0.011939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Height.png
+  artifactKey: Guid(2a33193c02a4154459fb033883fcdaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Height.png using Guid(2a33193c02a4154459fb033883fcdaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cb915073d6411a3fcb64b48369624f') in 0.012178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_1_Lava_Emissive.png
+  artifactKey: Guid(b35315e0a87bc50409157914c2aa909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_1_Lava_Emissive.png using Guid(b35315e0a87bc50409157914c2aa909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a76a37d40ebb6992854afb618d4f47') in 0.012396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Base_Color.png
+  artifactKey: Guid(b198aa877543bae4390e4cc0e72be934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Base_Color.png using Guid(b198aa877543bae4390e4cc0e72be934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea75ec35e1589a551e30b81911cfbc2') in 0.014488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Height.png
+  artifactKey: Guid(ffd07a53ce00d2d48beb5b77432d053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Height.png using Guid(ffd07a53ce00d2d48beb5b77432d053c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9507c2592afd1d41837abc7b80f06ae8') in 0.012698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Roughness.png
+  artifactKey: Guid(8307f0076c24e8f4eaf6abac885be228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Roughness.png using Guid(8307f0076c24e8f4eaf6abac885be228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3778ece97a09e78c4727acb80e8abb4d') in 0.010653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Base_Color.png
+  artifactKey: Guid(aa3e95facbcb2874ea5d0fa0ce8ab8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Base_Color.png using Guid(aa3e95facbcb2874ea5d0fa0ce8ab8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6970384994c3467097cca544f3146422') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Normal.png
+  artifactKey: Guid(76f51ee2128be8340950cc15ba9695dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Normal.png using Guid(76f51ee2128be8340950cc15ba9695dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f9b89a1abea36a4058622d737cb098') in 0.015765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Ambient_Occlusion.png
+  artifactKey: Guid(57ab2c32017637448966a5c46ecf7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Ambient_Occlusion.png using Guid(57ab2c32017637448966a5c46ecf7d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14655a8f836c6d7394fee4ded0635ce5') in 0.014176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Base_Color.png
+  artifactKey: Guid(835aaa89846e1d94f8a68e97b7de5217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Base_Color.png using Guid(835aaa89846e1d94f8a68e97b7de5217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdd1063ba91373cbe724083e04c8f72') in 0.012168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Base_Color.png
+  artifactKey: Guid(f5956e835ea243744a9fc80cbebe7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Base_Color.png using Guid(f5956e835ea243744a9fc80cbebe7bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319ca91fed9d9fed6db25f2b348f0d0a') in 0.015371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Height.png
+  artifactKey: Guid(f8af072333a7c6e49a1a1de5d106e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Height.png using Guid(f8af072333a7c6e49a1a1de5d106e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6d70f500a5047cc223996b725a27cd') in 0.011541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Height.png
+  artifactKey: Guid(6d3bcefd7545f5049a1775557226c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Height.png using Guid(6d3bcefd7545f5049a1775557226c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2433d9df1006c4efa44b3cf8d4cde096') in 0.014516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Normal.png
+  artifactKey: Guid(f127ee87898056e47946fab0b9123fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Normal.png using Guid(f127ee87898056e47946fab0b9123fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c412acfae58ba359372e042a8c09cd') in 0.014926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Roughness.png
+  artifactKey: Guid(37523e5dd9dadd64d95c93dbdaf265ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Roughness.png using Guid(37523e5dd9dadd64d95c93dbdaf265ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89eecd1e9756f58a07aa7cab458ef5f') in 0.012443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Ambient_Occlusion.png
+  artifactKey: Guid(57d96d9d393c75743b9207eddd2e69b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Ambient_Occlusion.png using Guid(57d96d9d393c75743b9207eddd2e69b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559ad5d59bd3093583dbd179f0b6e0e2') in 0.010613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Roughness.png
+  artifactKey: Guid(997b14fb12408ae4b85545ab9354eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Roughness.png using Guid(997b14fb12408ae4b85545ab9354eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a11bda11414f7aa80776b897312c9a8') in 0.012187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Base_Color.png
+  artifactKey: Guid(2f11c4bf57fe64b4f859276390ae902d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Base_Color.png using Guid(2f11c4bf57fe64b4f859276390ae902d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9499e81a8b5eb4e00af4dea8230a55e7') in 0.011247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Roughness.png
+  artifactKey: Guid(045c8214ce9906f41ba2c7d2f5d500f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Roughness.png using Guid(045c8214ce9906f41ba2c7d2f5d500f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6195eab8b4d94ed1192b17b7c660ec3') in 0.012777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Roughness.png
+  artifactKey: Guid(72c26281599821f4fad0e053c0dd5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Roughness.png using Guid(72c26281599821f4fad0e053c0dd5fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce595fd0398e6f4b3df57aeeaa361eb') in 0.014445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Normal.png
+  artifactKey: Guid(9821a1d54d95c1843968fde988b93fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Normal.png using Guid(9821a1d54d95c1843968fde988b93fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30d6f5cf98ad0bf9ad0be66cb2a32c') in 0.014091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Height.png
+  artifactKey: Guid(fb53d5a0d6094924abc1d41f07f78d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Height.png using Guid(fb53d5a0d6094924abc1d41f07f78d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e411af8ecd484fa9df86663d0853e1') in 0.012462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Roughness.png
+  artifactKey: Guid(aeba06a561ff961458da37a0a69eea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Roughness.png using Guid(aeba06a561ff961458da37a0a69eea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5456350466f167036606b37ab3a6b223') in 0.012907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Roughness.png
+  artifactKey: Guid(830907b47b00c374bae896897838d09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Roughness.png using Guid(830907b47b00c374bae896897838d09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b58376d81055c99c5a7358f6044a93') in 0.013617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Height.png
+  artifactKey: Guid(172a7b97944b04d4c903775827573934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Height.png using Guid(172a7b97944b04d4c903775827573934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc627d7627f4afeb9d0e6811f0049aa') in 0.011443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Ambient_Occlusion.png
+  artifactKey: Guid(2d369e16f5f84a04c83c22731a20390f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Ambient_Occlusion.png using Guid(2d369e16f5f84a04c83c22731a20390f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c9c0bfe4a603bcf921ae6847d4a532') in 0.016217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Normal.png
+  artifactKey: Guid(e3ca3f1466bc02b4692c4d3673d16df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Normal.png using Guid(e3ca3f1466bc02b4692c4d3673d16df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98617434a22924ff6055019730a7b31d') in 0.016277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Normal.png
+  artifactKey: Guid(27db48b727b8291479c50e33cd6e436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Normal.png using Guid(27db48b727b8291479c50e33cd6e436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0972599154681c748c7cf0522eb59f') in 0.016397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Normal.png
+  artifactKey: Guid(1dc984f20cf5dc54092fac3b548c9582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Normal.png using Guid(1dc984f20cf5dc54092fac3b548c9582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90399130d2ed9698392184509af6a830') in 0.016756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Normal.png
+  artifactKey: Guid(89afee2ff7c99f14fb6b93db354adbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Normal.png using Guid(89afee2ff7c99f14fb6b93db354adbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93210ba8aef57134a98e2d71e125f3e') in 0.012450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Height.png
+  artifactKey: Guid(2548d97419902a6498f390bc5798c318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Height.png using Guid(2548d97419902a6498f390bc5798c318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0918bee8636fd6b61af8381acc6f5a60') in 0.010649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Base_Color.png
+  artifactKey: Guid(323ac6b077a121b4d84019f2c25fd31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Base_Color.png using Guid(323ac6b077a121b4d84019f2c25fd31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9d7568b71f85386efbdf7248a84760') in 0.015898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Ambient_Occlusion.png
+  artifactKey: Guid(9374737a39aa521408ac3988e97aa51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Ambient_Occlusion.png using Guid(9374737a39aa521408ac3988e97aa51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09be7748a3639a482c5da08c26e3ac0d') in 0.010432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Normal.png
+  artifactKey: Guid(3cf6eee3d0cee82429945f707475de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Normal.png using Guid(3cf6eee3d0cee82429945f707475de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b7ab395fe90db4371a176e9985fbfa') in 0.011767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Roughness.png
+  artifactKey: Guid(07eba06918980414fac775f3dc6fcc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Roughness.png using Guid(07eba06918980414fac775f3dc6fcc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ff5f785c5328fc1e86a56a1fb1642c') in 0.012382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Ambient_Occlusion.png
+  artifactKey: Guid(0bde6e27f85fd544d894b8997034c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Ambient_Occlusion.png using Guid(0bde6e27f85fd544d894b8997034c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813547d1e90d3890752c507c3974833f') in 0.014629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Roughness.png
+  artifactKey: Guid(4b087c98e8296f740a51633c37bccfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Roughness.png using Guid(4b087c98e8296f740a51633c37bccfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4ab601059d42142d3b0eb93b66137') in 0.013517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Base_Color.png
+  artifactKey: Guid(d75d23fa05e7cd747ba54add1c60d577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Base_Color.png using Guid(d75d23fa05e7cd747ba54add1c60d577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e31462549eb382fb180b42a7ee29bd9') in 0.012962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Height.png
+  artifactKey: Guid(382c65bc958f74043a161731b681e152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_34_2_Tiles_Height.png using Guid(382c65bc958f74043a161731b681e152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419ebf56f0172ea3a6e49e06f1a51686') in 0.012592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Normal.png
+  artifactKey: Guid(d79522159a1f6344d8b1c6c2ba127444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Normal.png using Guid(d79522159a1f6344d8b1c6c2ba127444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8d73ebf6104f2a3bd3733da3045dd6') in 0.012984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Height.png
+  artifactKey: Guid(7f7402220bc187a428c234a4611746f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Height.png using Guid(7f7402220bc187a428c234a4611746f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75221bfc8de73292656bd25d38503f09') in 0.010179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Height.png
+  artifactKey: Guid(6d7c872c3a1aea8448fd8eb308df97f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_7_1_Tiles_Height.png using Guid(6d7c872c3a1aea8448fd8eb308df97f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb30907286cea8326240336defde1689') in 0.012602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Height.png
+  artifactKey: Guid(14f529fbbf88335498841aefa9baf5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Height.png using Guid(14f529fbbf88335498841aefa9baf5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8964b08dc3ef15af4c107fd8554a854e') in 0.012308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Ambient_Occlusion.png
+  artifactKey: Guid(49a081721f60c6a44bcae188078bd036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Ambient_Occlusion.png using Guid(49a081721f60c6a44bcae188078bd036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64185546b2dc288883b887f1ec8922ff') in 0.010634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Height.png
+  artifactKey: Guid(5dd5833fe203510408d24955f0ab7284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Height.png using Guid(5dd5833fe203510408d24955f0ab7284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8c29a9c1d25d24e829469564bcb373') in 0.013097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.591437 seconds.
+  path: Assets/Plugin/Infima Games/Tools
+  artifactKey: Guid(1d8fee9cf0e937a4e9848837859cf73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Tools using Guid(1d8fee9cf0e937a4e9848837859cf73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5457586ea4bb6d87092e6977e03bb9') in 0.007430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.517278 seconds.
+  path: Assets/Plugin/Infima Games/Tools/Looping
+  artifactKey: Guid(be9c050bbbd929e4cb7c1e48a575b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Tools/Looping using Guid(be9c050bbbd929e4cb7c1e48a575b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01ca5c15b74d250b9e8a0da0d15568d') in 0.006366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.353717 seconds.
+  path: Assets/Plugin/Infima Games/Tools/Looping/Loops.cs
+  artifactKey: Guid(a3f90bb8115746ab81ad465ac0668a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Tools/Looping/Loops.cs using Guid(a3f90bb8115746ab81ad465ac0668a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3eee6d9181df413fd7caea65f5222d') in 0.005852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.454533 seconds.
+  path: Assets/Plugin/Infima Games/Tools/Looping/LoopUtilities.cs
+  artifactKey: Guid(a6839b15d218ed04db82e7b8f494c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Tools/Looping/LoopUtilities.cs using Guid(a6839b15d218ed04db82e7b8f494c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2e18f0e2e19a90bd99c7a523957e6d') in 0.006588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.595462 seconds.
+  path: Assets/Plugin/Infima Games/Tools/Looping/RLoops.cs
+  artifactKey: Guid(6864ac5cf40b4fc29931f4edfd1c73ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Tools/Looping/RLoops.cs using Guid(6864ac5cf40b4fc29931f4edfd1c73ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cfe41868cec2de8bfe99444ec038d9') in 0.006275 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1252ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1023ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4865.
+Memory consumption went from 258.4 MB to 257.1 MB.
+Total: 3.830900 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.340700 ms MarkObjects: 2.807400 ms  DeleteObjects: 0.339000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1180ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4311 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 4868.
+Memory consumption went from 258.4 MB to 257.1 MB.
+Total: 5.078800 ms (FindLiveObjects: 0.356700 ms CreateObjectMapping: 0.346100 ms MarkObjects: 4.076700 ms  DeleteObjects: 0.298200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
