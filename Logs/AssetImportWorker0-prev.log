@@ -179,3 +179,92 @@ Received Import Request.
   path: Assets/Plugin
   artifactKey: Guid(79138038b0e6ac744afe3fbcad9b1100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Plugin using Guid(79138038b0e6ac744afe3fbcad9b1100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab8d05eb7e038b01fd385671bbe55cb') in 0.005710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 313.993826 seconds.
+  path: Assets/Plugin/Infima Games
+  artifactKey: Guid(c452a2c188bbafa4bab204fc6647d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games using Guid(c452a2c188bbafa4bab204fc6647d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f8c6dc4d0742e8e3f685011beb5bd8') in 0.007812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.909107 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample
+  artifactKey: Guid(6417c31b57a1b5b4695ce6ea8771a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample using Guid(6417c31b57a1b5b4695ce6ea8771a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fe1a18b42f98e58d1e5459cb2a735d') in 0.006028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.664386 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Input
+  artifactKey: Guid(3f958d144d62eef4b92522c6001edab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Input using Guid(3f958d144d62eef4b92522c6001edab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eab83d5b519706e7440b238362ab13d') in 0.007053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092734 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Input/IS_Default.asset
+  artifactKey: Guid(9eb07e2d669e9c94e9d7d3c782a916f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Input/IS_Default.asset using Guid(9eb07e2d669e9c94e9d7d3c782a916f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5f764cb9f0a70327cc84a807c664be') in 0.024787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.500572 seconds.
+  path: Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview.unity
+  artifactKey: Guid(63fdc04a097eb0b4ba4af78a98dac40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugin/Infima Games/Low Poly Shooter Pack - Free Sample/Scenes/S_Content_Overview.unity using Guid(63fdc04a097eb0b4ba4af78a98dac40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf954eb44a1666097ae72dc5fa573db') in 0.008043 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.163923 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lcv1930014\Downloads\GunSkin_Database\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lcv1930014\Downloads\GunSkin_Database\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1192ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (514ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4348 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (3.9 MB). Loaded Objects now: 4763.
+Memory consumption went from 169.7 MB to 165.8 MB.
+Total: 4.483100 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.254700 ms MarkObjects: 2.460600 ms  DeleteObjects: 1.450600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
