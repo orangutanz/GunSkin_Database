@@ -1,0 +1,59 @@
+create table if  not exists Player
+(
+    ID integer primary key autoincrement,
+    FName string,
+    LName string,
+    Email string not null,
+    Username string not null,
+    DoB date
+);
+
+create table if not exists Gun_Base
+(
+    GunId integer primary key autoincrement
+);
+
+create table if not exists Material
+(
+    MaterialId integer primary key autoincrement,
+    MaterialName string not null,
+    MaterialFileName string not null
+);
+
+create table if not exists AssaultRifleSkin
+(
+    AssultRifleSkinID integer primary key autoincrement,
+    AssaultRifleID integer not null,
+    BodyM integer,
+    BoltM integer,
+    DetailsM integer,
+    GripM integer,
+    GripFrontM integer,
+    StockM integer,
+    foreign key (BodyM, BoltM, DetailsM, GripM, GripFrontM, StockM) references Material(MaterialId, MaterialId, MaterialId, MaterialId, MaterialId, MaterialId)
+    foreign key (AssaultRifleID) references Gun_Base(GunId)
+);
+
+create table if not exists HandgunSkin
+(
+    HandgunSkinID integer primary key autoincrement,
+    HandgunID integer not null,
+    BodyM integer,
+    DetailsM integer,
+    GripM integer,
+    HammerM integer,
+    SlideM integer,
+    foreign key (BodyM, DetailsM, GripM, HammerM, SlideM) references Material(MaterialId, MaterialId, MaterialId, MaterialId, MaterialId)
+    foreign key (HandgunSkinID) references Gun_Base(GunId)
+);
+
+create table if not exists PlayerSkins
+(
+    PlayerID integer not Null primary key,
+    AssultRifleSkinID integer,
+    HandgunSkinID integer,
+    foreign key (PlayerID) references Player(ID),
+    foreign key (AssultRifleSkinID) references AssaultRifleSkin(AssultRifleSkinID),
+    foreign key (HandgunSkinID) references HandgunSkin(HandgunSkinID)
+);
+
