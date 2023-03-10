@@ -1,5 +1,5 @@
 ﻿// Copyright 2021, Infima Games. All Rights Reserved.
-
+using System.Collections;
 using UnityEngine;
 
 namespace InfimaGames.LowPolyShooterPack
@@ -28,6 +28,7 @@ namespace InfimaGames.LowPolyShooterPack
         [Tooltip("The speed at which the look rotation is interpolated.")]
         [SerializeField]
         private float interpolationSpeed = 25.0f;
+        
         
         #endregion
         
@@ -68,9 +69,15 @@ namespace InfimaGames.LowPolyShooterPack
             rotationCharacter = playerCharacter.transform.localRotation;
             //Cache the camera's initial rotation.
             rotationCamera = transform.localRotation;
+		    Cursor.visible = false;	
+            Cursor.lockState = CursorLockMode.Locked;
         }
         private void LateUpdate()
         {
+            if (Time.timeScale == 0)
+            {
+                return;
+            }
             //Frame Input. The Input to add this frame!
             Vector2 frameInput = playerCharacter.IsCursorLocked() ? playerCharacter.GetInputLook() : default;
             //Sensitivity.
