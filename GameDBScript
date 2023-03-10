@@ -30,7 +30,12 @@ create table if not exists AssaultRifleSkin
     GripM integer,
     GripFrontM integer,
     StockM integer,
-    foreign key (BodyM, BoltM, DetailsM, GripM, GripFrontM, StockM) references Material(MaterialId, MaterialId, MaterialId, MaterialId, MaterialId, MaterialId)
+    foreign key (BodyM) references Material(MaterialId),
+    foreign key (BoltM) references Material(MaterialId),
+    foreign key (DetailsM) references Material( MaterialId),
+    foreign key (GripM) references Material(MaterialId),
+    foreign key (GripFrontM) references Material(MaterialId),
+    foreign key (StockM) references Material(MaterialId),
     foreign key (AssaultRifleID) references Gun_Base(GunId)
 );
 
@@ -43,7 +48,11 @@ create table if not exists HandgunSkin
     GripM integer,
     HammerM integer,
     SlideM integer,
-    foreign key (BodyM, DetailsM, GripM, HammerM, SlideM) references Material(MaterialId, MaterialId, MaterialId, MaterialId, MaterialId)
+    foreign key (BodyM) references Material(MaterialId),
+    foreign key (GripM) references Material(MaterialId),
+    foreign key (DetailsM) references Material( MaterialId),
+    foreign key (SlideM) references Material(MaterialId),
+    foreign key (SlideM) references Material(MaterialId),
     foreign key (HandgunSkinID) references Gun_Base(GunId)
 );
 
@@ -56,4 +65,14 @@ create table if not exists PlayerSkins
     foreign key (AssultRifleSkinID) references AssaultRifleSkin(AssultRifleSkinID),
     foreign key (HandgunSkinID) references HandgunSkin(HandgunSkinID)
 );
+
+drop table AssaultRifleSkin;
+drop table HandgunSkin;
+drop table PlayerSkins;
+
+
+insert into PlayerSkins(PlayerID, AssultRifleSkinID, HandgunSkinID) values(1,5,4);
+insert into PlayerSkins(PlayerID, AssultRifleSkinID, HandgunSkinID) values(2,6,2);
+insert into PlayerSkins(PlayerID, AssultRifleSkinID, HandgunSkinID) values(3,3,3);
+
 
