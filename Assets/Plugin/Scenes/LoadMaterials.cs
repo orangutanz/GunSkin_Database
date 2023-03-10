@@ -7,7 +7,7 @@ using Mono.Data.Sqlite;
 public class LoadMaterials : MonoBehaviour
 {
     private string dbName = "URI=file:GameDB.db";
-
+    [System.Serializable]
     struct Mat
     {
         public string matName;
@@ -16,7 +16,8 @@ public class LoadMaterials : MonoBehaviour
 
     [SerializeField] private Object[] objects;
     private List<Material> materials = new List<Material>();
-    private List<Mat> materialsData = new List<Mat>();
+   
+    [SerializeField] private List<Mat> materialsData = new List<Mat>();
     // Start is called before the first frame update
 
     void Awake()
@@ -48,6 +49,7 @@ public class LoadMaterials : MonoBehaviour
             Mat newMat = new Mat();
             newMat.matName = mat.name;
             newMat.matFileName = (mat.name + ".mat");
+            materialsData.Add(newMat);
         }
         materials.Clear();
     }
@@ -61,7 +63,7 @@ public class LoadMaterials : MonoBehaviour
             {
                 using (var command = connection.CreateCommand())
                 {
-                    command.CommandText = "insert into Material(MaterialName, MaterialFileName) values ( '" + materialsData[i].matName + "', " + materialsData[i].matFileName + ");";
+                    command.CommandText = "insert into Material(MaterialName, MaterialFileName) values ( '" + materialsData[i].matName + "', '" + materialsData[i].matFileName + "');";
 
                     Debug.Log(materialsData[i].matFileName);
                     command.ExecuteNonQuery();
