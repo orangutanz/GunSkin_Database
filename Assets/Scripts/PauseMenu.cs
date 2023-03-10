@@ -30,20 +30,22 @@ public class PauseMenu : MonoBehaviour
 			
             using (var command = connection.CreateCommand())
             {
-                command.CommandText = "Select * from Material";
+                command.CommandText = "Select * from Material;";
 			
                 using (var reader = command.ExecuteReader())
                 {
-					string DBMat = "";
 					while(reader.Read())
 					{
-
+						string matName = "";
+						string matFile = "";
+						matName += reader["MaterialName"];
+						matFile += reader["MaterialFileName"];
+						materialList.Add(new KeyValuePair<string,string> (matName,matFile));
+						Debug.Log("Materail load: " + matName + ". file: " + matFile);
 					}
+					reader.Close();
 				}
 			}
-
-
-
 			connection.Close();
 		}
 	}
