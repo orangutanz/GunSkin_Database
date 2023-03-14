@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Data;
+using System;
 using Mono.Data.Sqlite;
 
 public class MainMenu : MonoBehaviour
@@ -64,13 +65,26 @@ public class MainMenu : MonoBehaviour
             {
                 int noPlayers = 0;
                 string loginName = "";
-                command.CommandText = "select count( * ) from Player where Username = '" + loginInput.text + "' or Email = '" + loginInput.text + "' ;";
+                command.CommandText = "select count( * ), Email, Username, ID from Player where Username = '" + loginInput.text + "' or Email = '" + loginInput.text + "' ;";
                 using (IDataReader reader = command.ExecuteReader())
                 {
                     if (reader.Read())
                     {
                         noPlayers = reader.GetInt32(0);
-
+                        if(noPlayers>0)
+                        {
+                        StaticPlayer.ResetPlayerInfo();
+                        
+                        string s = "";
+                        s += reader["Email"];
+                        StaticPlayer.Email = s;                        
+                        s="";
+                        s += reader["Username"];
+                        StaticPlayer.UserName = s;                        
+                        s="";
+                        s += reader["ID"];      
+		                StaticPlayer.PlayerID = Int32.Parse(s);  
+                        }                      
                     }
                     reader.Close();
                 }
@@ -87,7 +101,23 @@ public class MainMenu : MonoBehaviour
                 if (noPlayers > 0)
                 {
                     Debug.Log("Welcome " + loginName);
-                    //UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+                    command.CommandText = "select AssultRifleSkinID, HandgunSkinID from PlayerSkins where PlayerID = '" + StaticPlayer.PlayerID + "' ;";
+                    using (IDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            string s = "";
+                            s="";
+                            s+= reader["AssultRifleSkinID"]; 
+		                    StaticPlayer.ARSkinID = Int32.Parse(s); 
+                            s="";
+                            s+= reader["HandgunSkinID"]; 
+		                    StaticPlayer.HandgunSkinID = Int32.Parse(s);
+                        }
+                        reader.Close();
+                    }
+                    
+                    UnityEngine.SceneManagement.SceneManager.LoadScene("S_Content_Overview");
                 }
                 else
                 {
@@ -101,6 +131,11 @@ public class MainMenu : MonoBehaviour
         
     }
 
+
+    public void LoadPlayerInfo()
+    {
+
+    }
     //Register Screen
 
     public void RegisterPlayer()

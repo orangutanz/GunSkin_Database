@@ -71,7 +71,7 @@ public class LoadMaterials : MonoBehaviour
             }
             materialsData.Clear();
             connection.Close();
-
+            
         }
     }
 }

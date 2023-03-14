@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Scripting;
@@ -29,7 +30,13 @@ public class PauseMenu : MonoBehaviour
 	Material tempMaterial;
 
 	public void Start()
-	{		
+	{	
+		InitialSetUp();
+	}
+	
+	
+	private void InitialSetUp()
+	{	
         using (var connection = new SqliteConnection(dbName))
         {
 			connection.Open();
@@ -50,29 +57,91 @@ public class PauseMenu : MonoBehaviour
 						matFileNames.Add(matFile);
 						//materialList.Add(new KeyValuePair<string,string> (matName,matFile));
 					}
-					reader.Close();
+					reader.Close();					
 				}
+				dropdownMenu.ClearOptions();		
+				dropdownMenu.AddOptions(matNames);
+				//AR skin
+                command.CommandText = "Select BodyM, BoltM, DetailsM, GripM, GripFrontM, StockM from AssaultRifleSkin where AssultRifleSkinID = '" + StaticPlayer.ARSkinID + "';";				
+                using (var reader = command.ExecuteReader())
+                {
+					Material[] tempARMesh = ARMesh.materials;
+					string info = "";
+					info+= reader["BodyM"];					
+					int skinID = -1;
+		            skinID = Int32.Parse(info);
+					if(skinID > 0)//SkinIDs start at 1
+					{
+						SkinSelectByIndex(skinID-1);
+					}
+					info = "";
+					info+= reader["BoltM"];
+					skinID = -1;
+		            skinID = Int32.Parse(info);
+					if(skinID > 0)//SkinIDs start at 1
+					{
+						SkinSelectByIndex(skinID-1);
+					}
+					info = "";
+					info+= reader["DetailsM"];
+					skinID = -1;
+		            skinID = Int32.Parse(info);
+					if(skinID > 0)//SkinIDs start at 1
+					{
+						SkinSelectByIndex(skinID-1);
+					}
+					info = "";
+					info+= reader["GripM"];
+					skinID = -1;
+		            skinID = Int32.Parse(info);
+					if(skinID > 0)//SkinIDs start at 1
+					{
+						SkinSelectByIndex(skinID-1);
+					}
+					info = "";
+					info+= reader["GripFrontM"];
+					skinID = -1;
+		            skinID = Int32.Parse(info);
+					if(skinID > 0)//SkinIDs start at 1
+					{
+						SkinSelectByIndex(skinID-1);
+					}
+					info = "";
+					info+= reader["StockM"];
+					skinID = -1;
+		            skinID = Int32.Parse(info);
+					if(skinID > 0)//SkinIDs start at 1
+					{
+						SkinSelectByIndex(skinID-1);
+					}
+					ARMesh.materials = tempARMesh;
+					reader.Close();		
+				}
+				Debug.Log("InitialSetUp is done");
 			}
+
 			connection.Close();
+			
 		}
-		PopulateDropDownMenu();
 	}
-	
-	private void PopulateDropDownMenu()
+
+	public void LoadSkin()
 	{
-		dropdownMenu.ClearOptions();		
-		dropdownMenu.AddOptions(matNames);
+
 	}
 
 	public void SkinSelect(TMP_Dropdown selected)
 	{
-		int index = selected.value;
+		SkinSelectByIndex(selected.value);
+	}
+
+	private void SkinSelectByIndex(int index)
+	{
 		//tempMaterial = Resources.Load("Materials/" + matFileNames[index].ToString(), typeof(Material)) as Material;
 		tempMaterial = Resources.Load("Materials/" + matFileNames[index], typeof(Material)) as Material;
 		
 		if(ARMesh.gameObject.gameObject.activeInHierarchy)
 		{
-			Debug.Log("ARMesh change to " + matFileNames[index].ToString());
 			Material[] tempARMesh = ARMesh.materials;
 			tempARMesh[1] = tempMaterial;
 			tempARMesh[3] = tempMaterial;
@@ -80,15 +149,13 @@ public class PauseMenu : MonoBehaviour
 			ARMesh.materials = tempARMesh;
 		}
 		if(HandGunMesh.gameObject.gameObject.activeInHierarchy)
-		{
-			Debug.Log("HandGunMesh chage to" + matFileNames[index].ToString());			
+		{	
 			Material[] tempGunMesh = HandGunMesh.materials;
 			tempGunMesh[2] = tempMaterial;
 			tempGunMesh[3] = tempMaterial;
 			tempGunMesh[4] = tempMaterial;
 			HandGunMesh.materials = tempGunMesh;
 		}
-
 	}
 
 	public void PauseGame()
@@ -110,19 +177,14 @@ public class PauseMenu : MonoBehaviour
 
 	}
 
-	public void SaveAssualtGunSkin()
+	public void SaveGunSkins()
 	{
 		
 	}
 
-	public void SaveHandGunSkin()
+	public void ExitToMenu()
 	{
-
-	}	
-	
-	public void DropdownSample(int idx)
-	{
-		
+		UnityEngine.SceneManagement.SceneManager.LoadScene("MenuScene");
 	}
 
 	public void Update()
@@ -138,6 +200,5 @@ public class PauseMenu : MonoBehaviour
 				PauseGame();
 			}
 		}
-	}
-	
+	}	
 }
