@@ -10,7 +10,6 @@ using TMPro;
 
 public class PauseMenu : MonoBehaviour
 {
-
 	[SerializeField] 
 	private GameObject pauseMenu;	
 	[SerializeField] 
@@ -70,14 +69,9 @@ public class PauseMenu : MonoBehaviour
 		int index = selected.value;
 		//tempMaterial = Resources.Load("Materials/" + matFileNames[index].ToString(), typeof(Material)) as Material;
 		tempMaterial = Resources.Load("Materials/" + matFileNames[index], typeof(Material)) as Material;
-		if(tempMaterial)
-		{
-			Debug.Log("something is loaded");
-		}
-
+		
 		if(ARMesh.gameObject.gameObject.activeInHierarchy)
 		{
-			Debug.Log("ARMesh");
 			Debug.Log("ARMesh change to " + matFileNames[index].ToString());
 			Material[] tempARMesh = ARMesh.materials;
 			tempARMesh[1] = tempMaterial;
@@ -87,7 +81,6 @@ public class PauseMenu : MonoBehaviour
 		}
 		if(HandGunMesh.gameObject.gameObject.activeInHierarchy)
 		{
-			Debug.Log("HandGunMesh");
 			Debug.Log("HandGunMesh chage to" + matFileNames[index].ToString());			
 			Material[] tempGunMesh = HandGunMesh.materials;
 			tempGunMesh[2] = tempMaterial;
