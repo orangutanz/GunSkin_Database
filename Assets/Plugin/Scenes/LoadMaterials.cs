@@ -48,7 +48,7 @@ public class LoadMaterials : MonoBehaviour
         {
             Mat newMat = new Mat();
             newMat.matName = mat.name;
-            newMat.matFileName = (mat.name + ".mat");
+            newMat.matFileName = (mat.name);
             materialsData.Add(newMat);
         }
         materials.Clear();
