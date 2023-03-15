@@ -25,6 +25,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private InputField fNameInput;
     [SerializeField] private InputField lNameInput;
 
+    [SerializeField] private Text error;
+    private bool isRepeat = false;
 
     // Start is called before the first frame update
 
@@ -40,7 +42,10 @@ public class MainMenu : MonoBehaviour
         
     }
     //Main menu screen
-
+    public void Edit()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
     public void Login()
     {
         panelMainMenu.SetActive(false);
@@ -153,19 +158,30 @@ public class MainMenu : MonoBehaviour
                         int noPlayers = reader.GetInt32(0);
                         if (noPlayers > 0)
                         {
-                            Debug.Log("User Already Exists");
+                            error.text = "User Already Exists";
+                            
+                            isRepeat = true;
                             reader.Close();
                         }
                         else
                         {
+                            error.text = "User Registred";
+                            isRepeat = false;
                             reader.Close();
                             command.CommandText = "insert into Player (Username, Email, FName, LName) values ('" + usernameInput.text + "','" + emailInput.text + "', '" + fNameInput.text + "' , '" + lNameInput.text + "');";
                             command.ExecuteNonQuery();
+                            
                         }
                     }
                 }
             }
             connection.Close();
+        }
+        if(!isRepeat)
+        {
+            panelMainMenu.SetActive(true);
+            panelLogin.SetActive(false);
+            panelRegister.SetActive(false);
         }
         //UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }

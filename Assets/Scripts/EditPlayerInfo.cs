@@ -45,7 +45,10 @@ public class EditPlayerInfo : MonoBehaviour
         
     }
 
-
+    public void MainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
     public void DisplayInfo()
     {
         using (var connection = new SqliteConnection(dbName))
@@ -64,13 +67,9 @@ public class EditPlayerInfo : MonoBehaviour
                         if (noPlayers > 0)
                         {
                             fNameInput.text += reader["FName"];
-                            fName += reader["FName"];
                             lNameInput.text += reader["LName"];
-                            lName += reader["LName"];
                             usernameInput.text += reader["Email"];
-                            username += reader["Email"];
                             emailInput.text += reader["Username"];
-                            email += reader["Username"];
                         }
                     }
                     reader.Close();
