@@ -19,7 +19,6 @@ public class EditPlayerInfo : MonoBehaviour
     [SerializeField] private InputField lNameInput;
     [SerializeField] private InputField usernameInput;
     [SerializeField] private InputField emailInput;
-    [SerializeField] private InputField DoBInput;
 
     private string fName;
     private string lName;
@@ -27,9 +26,12 @@ public class EditPlayerInfo : MonoBehaviour
     private string email;
 
     private int ID;
+
+    [SerializeField] private Text error;
     // Start is called before the first frame update
 
-    DateTime tempDate; 
+    DateTime tempDate;
+    //CultureInfo culture = new CultureInfo("en-US");
 
     private void Awake()
     {
@@ -71,8 +73,13 @@ public class EditPlayerInfo : MonoBehaviour
                             lNameInput.text += reader["LName"];
                             usernameInput.text += reader["Email"];
                             emailInput.text += reader["Username"];
-                            DoBInput.text += reader["DoB"];
-                            tempDate = DateTime.Parse(DoBInput.text);
+                            //DoBInput.text += reader["DoB"];
+                            //tempDate = DateTime.Parse(DoBInput.text);
+                        }
+                        else
+                        {
+                            error.text = "User doesn't Exists";
+                            reader.Close();
                         }
                     }
                     reader.Close();
@@ -98,7 +105,7 @@ public class EditPlayerInfo : MonoBehaviour
                         int noPlayers = reader.GetInt32(0);
                         if (noPlayers == 0)
                         {
-                            Debug.Log("User doesn't Exists");
+                            
                             reader.Close();
                         }
                         else
@@ -106,9 +113,10 @@ public class EditPlayerInfo : MonoBehaviour
                             string s ="";
                             s += reader["ID"];
                             ID  = int.Parse(s);
-                            tempDate = DateTime.Parse(DoBInput.text);
+                            
+                            //StempDate = Convert.ToDateTime(DoBInput, culture);
                             reader.Close();
-                            command.CommandText = "update Player set FName = '"+ fNameInput.text+ "',LName = '" + lNameInput.text + "',Username = '" + usernameInput.text + "', Email = '" + emailInput.text + "', DoB = '" + tempDate + "'  where ID = " + ID +";";
+                            command.CommandText = "update Player set FName = '"+ fNameInput.text+ "',LName = '" + lNameInput.text + "',Username = '" + usernameInput.text + "', Email = '" + emailInput.text + "' where ID = " + ID +";";
                             command.ExecuteNonQuery();
                         }
                     }
