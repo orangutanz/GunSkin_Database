@@ -14,7 +14,7 @@ public class PauseMenu : MonoBehaviour
 	[SerializeField] 
 	private GameObject pauseMenu;	
 	[SerializeField] 
-	private TMP_Dropdown dropdownMenu;	
+	private TMP_Dropdown[] dropdownMenus;	
 	[SerializeField] 
 	private SkinnedMeshRenderer  ARMesh;		
 	[SerializeField] 
@@ -58,8 +58,11 @@ public class PauseMenu : MonoBehaviour
 					}
 					reader.Close();					
 				}
-				dropdownMenu.ClearOptions();		
-				dropdownMenu.AddOptions(matNames);
+				foreach (var i in dropdownMenus)
+				{
+					i.ClearOptions();
+					i.AddOptions(matNames);
+				}
 				Debug.Log("InitialSetUp is done");
 			}
 			connection.Close();			
@@ -75,7 +78,7 @@ public class PauseMenu : MonoBehaviour
 			using (var command = connection.CreateCommand())
 			{
 				//AR skin
-				command.CommandText = "Select BodyM, BoltM, DetailsM, GripM, GripFrontM, StockM from AssaultRifleSkin where AssultRifleSkinID = " + 1 + ";";
+				command.CommandText = "Select BodyM, BoltM, DetailsM, GripM, GripFrontM, StockM from AssaultRifleSkin where AssultRifleSkinID = " + StaticPlayer.ARSkinID + ";";
 				using (var reader = command.ExecuteReader())
 				{
 					if(reader.Read())
@@ -157,37 +160,63 @@ public class PauseMenu : MonoBehaviour
 					}
 					reader.Close();
 				}
+
+				//Handgun Skin
 			}
 			connection.Close();
 		}
 
 	}
 
-	public void SkinSelect(TMP_Dropdown selected)
+	public void SkinSelect_Part_1(TMP_Dropdown selected)
 	{
-		SkinSelectByIndex(selected.value);
+		SkinSelectByIndex(selected.value, 0);
 	}
 
-	private void SkinSelectByIndex(int index)
+	public void SkinSelect_Part_2(TMP_Dropdown selected)
 	{
-		tempMaterial = Resources.Load("Materials/" + matFileNames[index], typeof(Material)) as Material;
+		SkinSelectByIndex(selected.value, 1);
+	}
 
-		Debug.Log("LoadAR skin index " + index);
+
+	public void SkinSelect_Part_3(TMP_Dropdown selected)
+	{
+		SkinSelectByIndex(selected.value, 2);
+	}
+
+
+	public void SkinSelect_Part_4(TMP_Dropdown selected)
+	{
+		SkinSelectByIndex(selected.value, 3);
+	}
+
+	public void SkinSelect_Part_5(TMP_Dropdown selected)
+	{
+		SkinSelectByIndex(selected.value, 4);
+	}
+
+	public void SkinSelect_Part_6(TMP_Dropdown selected)
+	{
+		SkinSelectByIndex(selected.value, 5);
+	}
+
+
+
+
+	private void SkinSelectByIndex(int MatIndex, int PartIndex)
+	{
+		tempMaterial = Resources.Load("Materials/" + matFileNames[MatIndex], typeof(Material)) as Material;
 
 		if (ARMesh.gameObject.gameObject.activeInHierarchy)
 		{
 			Material[] tempARMesh = ARMesh.materials;
-			tempARMesh[1] = tempMaterial;
-			tempARMesh[3] = tempMaterial;
-			tempARMesh[5] = tempMaterial;
+			tempARMesh[PartIndex] = tempMaterial;
 			ARMesh.materials = tempARMesh;
 		}
-		if(HandGunMesh.gameObject.gameObject.activeInHierarchy)
+		else if(HandGunMesh.gameObject.gameObject.activeInHierarchy)
 		{
 			Material[] tempGunMesh = HandGunMesh.materials;
-			tempGunMesh[2] = tempMaterial;
-			tempGunMesh[3] = tempMaterial;
-			tempGunMesh[4] = tempMaterial;
+			tempGunMesh[PartIndex] = tempMaterial;
 			HandGunMesh.materials = tempGunMesh;
 		}
 	}
@@ -214,28 +243,88 @@ public class PauseMenu : MonoBehaviour
 	public void SaveGunSkins()
 	{
 
-		string matString = "";
-		int findIdx = -1;
-		foreach(var M in ARMesh.materials)
-        {
-			for(int i =0;i< matFileNames.Count;++i)
-            {
-				if(matFileNames[i] == M.name)
-                {
-					findIdx = i;
-                }
-            }
-        }
+		
 
 		using (var connection = new SqliteConnection(dbName))
 		{
 			using (var command = connection.CreateCommand())
 			{
-				//command.CommandText = "select count( * ), ID from Player where Username = '" + userInput.text + "' or Email = '" + userInput.text + "' ;";
-				using (IDataReader reader = command.ExecuteReader())
+
+				connection.Open();
+				int playerID = StaticPlayer.PlayerID;
+				int ARSkinID = StaticPlayer.ARSkinID;
+				//int playerID = 1;
+				//int ARSkinID = 2;
+
+
+				//Save AR Skin
+				if (ARMesh.gameObject.gameObject.activeInHierarchy)
 				{
+					int[] ARMatIDs = new int[6];
+					int ARPartIdx = 0;
+					foreach (var M in ARMesh.materials)
+					{
+						ARMatIDs[ARPartIdx] = -1;
+						for (int i = 0; i < matFileNames.Count; ++i)
+						{
+							if (M.name.Contains(matFileNames[i]))
+							{
+								Debug.Log("Find index " + i + " fileName: " + matFileNames[i]);
+								ARMatIDs[ARPartIdx] = i +1;
+								break;
+							}
+						}
+						ARPartIdx++;
+					}
+					if(ARMatIDs[0] > -1)
+					{
+						command.CommandText = "update AssaultRifleSkin set BodyM = '" + ARMatIDs[0] + "'  where AssultRifleSkinID = " + ARSkinID + ";";
+						command.ExecuteNonQuery();
+					}
+					if (ARMatIDs[1] > -1)
+					{
+						command.CommandText = "update AssaultRifleSkin set BoltM = '" + ARMatIDs[1] + "'  where AssultRifleSkinID = " + ARSkinID + ";";
+						command.ExecuteNonQuery();
+					}
+					if (ARMatIDs[2] > -1)
+					{
+						command.CommandText = "update AssaultRifleSkin set DetailsM = '" + ARMatIDs[2] + "'  where AssultRifleSkinID = " + ARSkinID + ";";
+						command.ExecuteNonQuery();
+					}
+					if (ARMatIDs[3] > -1)
+					{
+						command.CommandText = "update AssaultRifleSkin set GripM = '" + ARMatIDs[3] + "'  where AssultRifleSkinID = " + ARSkinID + ";";
+						command.ExecuteNonQuery();
+					}
+					if (ARMatIDs[4] > -1)
+					{
+						command.CommandText = "update AssaultRifleSkin set GripFrontM = '" + ARMatIDs[4] + "'  where AssultRifleSkinID = " + ARSkinID + ";";
+						command.ExecuteNonQuery();
+					}
+					if (ARMatIDs[5] > -1)
+					{
+						command.CommandText = "update AssaultRifleSkin set StockM = '" + ARMatIDs[5] + "'  where AssultRifleSkinID = " + ARSkinID + ";";
+						command.ExecuteNonQuery();
+					}
 
 				}
+				//Save Handgun Skin
+				else if (HandGunMesh.gameObject.gameObject.activeInHierarchy)
+				{
+					foreach (var M in ARMesh.materials)
+					{
+						for (int i = 0; i < matFileNames.Count; ++i)
+						{
+							if (M.name.Contains(matFileNames[i]))
+							{
+								Debug.Log("Find index " + i + " fileName: " + matFileNames[i]);
+							}
+						}
+					}
+				}
+				//command.CommandText = "select count( * ), ID from Player where Username = '" + userInput.text + "' or Email = '" + userInput.text + "' ;";
+
+				connection.Close();
 			}
 		}
 	}
