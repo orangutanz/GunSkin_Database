@@ -29,6 +29,7 @@ public class EditPlayerInfo : MonoBehaviour
     private int ID;
     // Start is called before the first frame update
 
+    DateTime tempDate; 
 
     private void Awake()
     {
@@ -70,6 +71,8 @@ public class EditPlayerInfo : MonoBehaviour
                             lNameInput.text += reader["LName"];
                             usernameInput.text += reader["Email"];
                             emailInput.text += reader["Username"];
+                            DoBInput.text += reader["DoB"];
+                            tempDate = DateTime.Parse(DoBInput.text);
                         }
                     }
                     reader.Close();
@@ -103,8 +106,9 @@ public class EditPlayerInfo : MonoBehaviour
                             string s ="";
                             s += reader["ID"];
                             ID  = int.Parse(s);
+                            tempDate = DateTime.Parse(DoBInput.text);
                             reader.Close();
-                            command.CommandText = "update Player set FName = '"+ fNameInput.text+ "',LName = '" + lNameInput.text + "',Username = '" + usernameInput.text + "', Email = '" + emailInput.text + "'  where ID = " + ID +";";
+                            command.CommandText = "update Player set FName = '"+ fNameInput.text+ "',LName = '" + lNameInput.text + "',Username = '" + usernameInput.text + "', Email = '" + emailInput.text + "', DoB = '" + tempDate + "'  where ID = " + ID +";";
                             command.ExecuteNonQuery();
                         }
                     }
