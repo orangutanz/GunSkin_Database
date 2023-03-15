@@ -24,10 +24,12 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private InputField emailInput;
     [SerializeField] private InputField fNameInput;
     [SerializeField] private InputField lNameInput;
+    //[SerializeField] private InputField DoBInput;
 
     [SerializeField] private Text error;
     private bool isRepeat = false;
 
+    DateTime tempDate;
     // Start is called before the first frame update
 
     private void Awake()
@@ -150,7 +152,7 @@ public class MainMenu : MonoBehaviour
             connection.Open();
             using (var command = connection.CreateCommand())
             {
-                command.CommandText = "select count( * ) from Player where Username = '" + loginInput.text + "';"; 
+                command.CommandText = "select count( * ) from Player where Username = '" + usernameInput.text + "';"; 
                 using (IDataReader reader = command.ExecuteReader())
                 {
                     if (reader.Read())
@@ -159,14 +161,14 @@ public class MainMenu : MonoBehaviour
                         if (noPlayers > 0)
                         {
                             error.text = "User Already Exists";
-                            
-                            isRepeat = true;
                             reader.Close();
+                            isRepeat = true;
                         }
                         else
                         {
                             error.text = "User Registred";
                             isRepeat = false;
+                            //tempDate = DateTime.Parse(DoBInput.text);
                             reader.Close();
                             command.CommandText = "insert into Player (Username, Email, FName, LName) values ('" + usernameInput.text + "','" + emailInput.text + "', '" + fNameInput.text + "' , '" + lNameInput.text + "');";
                             command.ExecuteNonQuery();
