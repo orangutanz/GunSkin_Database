@@ -45,7 +45,10 @@ public class EditPlayerInfo : MonoBehaviour
         
     }
 
-
+    public void MainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
     public void DisplayInfo()
     {
         using (var connection = new SqliteConnection(dbName))
