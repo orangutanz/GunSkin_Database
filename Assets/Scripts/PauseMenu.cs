@@ -55,78 +55,111 @@ public class PauseMenu : MonoBehaviour
 						matFile += reader["MaterialFileName"];
 						matNames.Add(matName);
 						matFileNames.Add(matFile);
-						//materialList.Add(new KeyValuePair<string,string> (matName,matFile));
 					}
 					reader.Close();					
 				}
 				dropdownMenu.ClearOptions();		
 				dropdownMenu.AddOptions(matNames);
-				//AR skin
-                command.CommandText = "Select BodyM, BoltM, DetailsM, GripM, GripFrontM, StockM from AssaultRifleSkin where AssultRifleSkinID = '" + StaticPlayer.ARSkinID + "';";				
-                using (var reader = command.ExecuteReader())
-                {
-					Material[] tempARMesh = ARMesh.materials;
-					string info = "";
-					info+= reader["BodyM"];					
-					int skinID = -1;
-		            skinID = Int32.Parse(info);
-					if(skinID > 0)//SkinIDs start at 1
-					{
-						SkinSelectByIndex(skinID-1);
-					}
-					info = "";
-					info+= reader["BoltM"];
-					skinID = -1;
-		            skinID = Int32.Parse(info);
-					if(skinID > 0)//SkinIDs start at 1
-					{
-						SkinSelectByIndex(skinID-1);
-					}
-					info = "";
-					info+= reader["DetailsM"];
-					skinID = -1;
-		            skinID = Int32.Parse(info);
-					if(skinID > 0)//SkinIDs start at 1
-					{
-						SkinSelectByIndex(skinID-1);
-					}
-					info = "";
-					info+= reader["GripM"];
-					skinID = -1;
-		            skinID = Int32.Parse(info);
-					if(skinID > 0)//SkinIDs start at 1
-					{
-						SkinSelectByIndex(skinID-1);
-					}
-					info = "";
-					info+= reader["GripFrontM"];
-					skinID = -1;
-		            skinID = Int32.Parse(info);
-					if(skinID > 0)//SkinIDs start at 1
-					{
-						SkinSelectByIndex(skinID-1);
-					}
-					info = "";
-					info+= reader["StockM"];
-					skinID = -1;
-		            skinID = Int32.Parse(info);
-					if(skinID > 0)//SkinIDs start at 1
-					{
-						SkinSelectByIndex(skinID-1);
-					}
-					ARMesh.materials = tempARMesh;
-					reader.Close();		
-				}
 				Debug.Log("InitialSetUp is done");
 			}
-
-			connection.Close();
-			
+			connection.Close();			
 		}
 	}
 
-	public void LoadSkin()
+	public void LoadARSkin()
 	{
+		using (var connection = new SqliteConnection(dbName))
+		{
+			connection.Open();
+
+			using (var command = connection.CreateCommand())
+			{
+				//AR skin
+				command.CommandText = "Select BodyM, BoltM, DetailsM, GripM, GripFrontM, StockM from AssaultRifleSkin where AssultRifleSkinID = " + 1 + ";";
+				using (var reader = command.ExecuteReader())
+				{
+					if(reader.Read())
+					{
+						Material[] tempARMesh = ARMesh.materials;
+						string info = "";
+						info += reader["BodyM"];
+						int skinID = -1;
+						skinID = Int32.Parse(info);
+						if (skinID > 0)//SkinIDs start at 1
+						{
+							tempMaterial = Resources.Load("Materials/" + matFileNames[skinID - 1], typeof(Material)) as Material;
+							if(tempMaterial)
+							{
+								tempARMesh[0] = tempMaterial;
+							}
+						}
+						info = "";
+						info += reader["BoltM"];
+						skinID = -1;
+						skinID = Int32.Parse(info);
+						if (skinID > 0)//SkinIDs start at 1
+						{
+							tempMaterial = Resources.Load("Materials/" + matFileNames[skinID - 1], typeof(Material)) as Material;
+							if (tempMaterial)
+							{
+								tempARMesh[1] = tempMaterial;
+							}
+						}
+						info = "";
+						info += reader["DetailsM"];
+						skinID = -1;
+						skinID = Int32.Parse(info);
+						if (skinID > 0)//SkinIDs start at 1
+						{
+							tempMaterial = Resources.Load("Materials/" + matFileNames[skinID - 1], typeof(Material)) as Material;
+							if (tempMaterial)
+							{
+								tempARMesh[2] = tempMaterial;
+							}
+						}
+						info = "";
+						info += reader["GripM"];
+						skinID = -1;
+						skinID = Int32.Parse(info);
+						if (skinID > 0)//SkinIDs start at 1
+						{
+							tempMaterial = Resources.Load("Materials/" + matFileNames[skinID - 1], typeof(Material)) as Material;
+							if (tempMaterial)
+							{
+								tempARMesh[3] = tempMaterial;
+							}
+						}
+						info = "";
+						info += reader["GripFrontM"];
+						skinID = -1;
+						skinID = Int32.Parse(info);
+						if (skinID > 0)//SkinIDs start at 1
+						{
+							tempMaterial = Resources.Load("Materials/" + matFileNames[skinID - 1], typeof(Material)) as Material;
+							if (tempMaterial)
+							{
+								tempARMesh[4] = tempMaterial;
+							}
+						}
+						info = "";
+						info += reader["StockM"];
+						skinID = -1;
+						skinID = Int32.Parse(info);
+						if (skinID > 0)//SkinIDs start at 1
+						{
+							tempMaterial = Resources.Load("Materials/" + matFileNames[skinID - 1], typeof(Material)) as Material;
+							if (tempMaterial)
+							{
+								tempARMesh[5] = tempMaterial;
+							}
+						}
+						ARMesh.materials = tempARMesh;
+					}
+					reader.Close();
+				}
+			}
+			connection.Close();
+		}
 
 	}
 
@@ -137,10 +170,11 @@ public class PauseMenu : MonoBehaviour
 
 	private void SkinSelectByIndex(int index)
 	{
-		//tempMaterial = Resources.Load("Materials/" + matFileNames[index].ToString(), typeof(Material)) as Material;
 		tempMaterial = Resources.Load("Materials/" + matFileNames[index], typeof(Material)) as Material;
-		
-		if(ARMesh.gameObject.gameObject.activeInHierarchy)
+
+		Debug.Log("LoadAR skin index " + index);
+
+		if (ARMesh.gameObject.gameObject.activeInHierarchy)
 		{
 			Material[] tempARMesh = ARMesh.materials;
 			tempARMesh[1] = tempMaterial;
@@ -149,7 +183,7 @@ public class PauseMenu : MonoBehaviour
 			ARMesh.materials = tempARMesh;
 		}
 		if(HandGunMesh.gameObject.gameObject.activeInHierarchy)
-		{	
+		{
 			Material[] tempGunMesh = HandGunMesh.materials;
 			tempGunMesh[2] = tempMaterial;
 			tempGunMesh[3] = tempMaterial;
@@ -179,7 +213,31 @@ public class PauseMenu : MonoBehaviour
 
 	public void SaveGunSkins()
 	{
-		
+
+		string matString = "";
+		int findIdx = -1;
+		foreach(var M in ARMesh.materials)
+        {
+			for(int i =0;i< matFileNames.Count;++i)
+            {
+				if(matFileNames[i] == M.name)
+                {
+					findIdx = i;
+                }
+            }
+        }
+
+		using (var connection = new SqliteConnection(dbName))
+		{
+			using (var command = connection.CreateCommand())
+			{
+				//command.CommandText = "select count( * ), ID from Player where Username = '" + userInput.text + "' or Email = '" + userInput.text + "' ;";
+				using (IDataReader reader = command.ExecuteReader())
+				{
+
+				}
+			}
+		}
 	}
 
 	public void ExitToMenu()
